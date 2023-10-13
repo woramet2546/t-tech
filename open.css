@@ -1,0 +1,700 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#313131;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.hd {
+    position: absolute;
+    margin-top: 3.7rem;
+    width: 100%;
+    background: #055a40;
+}
+
+.hd marquee {
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+}
+
+.headerex {
+    position:absolute;
+    top:0;
+    left: 0;
+    margin-left: 12rem;
+    margin-top: 4.2rem;
+}
+
+.headerex h1 {
+    color: rgb(238, 202, 0);
+    text-shadow: 5px 5px 20px #000;
+}
+
+.header {
+    background: #313131;
+    height: 100vh
+}
+
+.header h5 {
+    color: white;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.8rem;
+    text-shadow:5px 5px 5px #000;
+}
+
+.boxtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtext2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.boxtext2 h5 {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5rem;
+}
+
+.image2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+/* im1 start */
+
+.container1 {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container1 .card1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    height: 330px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(255, 94, 0);
+}
+
+.container1 .card1:hover {
+    height: 350px;
+}
+
+.container1 .card1 .imgBx1 {
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container1 .card1:hover .imgBx1 {
+    top: -100px;
+    scale: 0.60;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.container1 .card1 .content1 {
+    position:absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0 30px;
+    height:38px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(34, 34, 34);
+}
+
+.container1 .card1 .content1 p {
+    color:black;
+}
+
+.container1 .card1:hover .content1 {
+    height: 180px;
+    top: 140px;
+}
+
+.card1 .imgBx1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px 5px #000;
+}
+
+/* end */
+
+.header2 {
+    position: relative;
+    top: 0;
+    margin-top: 8rem;
+    left: 0;
+    margin-left: 5rem;
+}
+
+/* ขอบเขต Nav */
+
+a {
+    box-shadow: inset 0 0 0 0 #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: color  0.6s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: inset 400px 0 0 0 #004bad;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background:#067252;
+}
+
+/* ขอบเขต Menu */
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow:5px 5px 5px #000;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow:5px 5px 5px #000;
+}
+
+/* card ef2 */
+
+.container {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    height: 330px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(171, 0, 250);
+}
+
+.container .card:hover {
+    height: 350px;
+}
+
+.container .card .imgBx {
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container .card:hover .imgBx {
+    top: -100px;
+    scale: 0.60;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.container .card .content {
+    position:absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0 30px;
+    height:38px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(34, 34, 34);
+}
+
+.container .card .content p {
+    color:black;
+}
+
+.container .card:hover .content {
+    height: 150px;
+    top: 140px;
+}
+
+.card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px 5px #000;
+}
+/* card ef2 */
+
+/* Card 3 */
+.container3 {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container3 .card3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    height: 330px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(243, 239, 0);
+}
+
+.container3 .card3:hover {
+    height: 350px;
+}
+
+.container3 .card3 .imgBx3 {
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container3 .card3:hover .imgBx3 {
+    top: -100px;
+    scale: 0.60;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.container3 .card3 .content3 {
+    position:absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0 30px;
+    height:38px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(34, 34, 34);
+}
+
+.container3 .card3 .content3 p {
+    color:black;
+}
+
+.container3 .card3:hover .content3 {
+    height: 200px;
+    top: 110px;
+}
+
+.card3 .imgBx3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px 5px #000;
+}
+
+.container4 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container4 .card4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    height: 330px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(55, 255, 105);
+}
+
+.container4 .card4:hover {
+    height: 350px;
+}
+
+.container4 .card4 .imgBx4 {
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container4 .card4:hover .imgBx4 {
+    top: -100px;
+    scale: 0.60;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.container4 .card4 .content4 {
+    position:absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0 30px;
+    height:38px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(34, 34, 34);
+}
+
+.container4 .card4 .content4 p {
+    color:black;
+}
+
+.container4 .card4:hover .content4 {
+    height: 200px;
+    top: 110px;
+}
+
+.card4 .imgBx4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px 5px #000;
+}
+
+.header3 {
+    position: relative;
+    top: 0;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    right: 0;
+    width: 750px;
+    padding: 30px;
+}
+
+.header3 .boximg {
+    position: absolute;
+    width: 700px;
+    height: 840px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 5px rgb(0, 227, 243);
+}
+
+.header3 .boximg img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+.boxcontent {
+    width: 100%;
+    height: 78px;
+    background: rgb(0, 136, 84);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px rgb(0, 227, 243);
+}
+
+.boxcontent2 {
+    width:300px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcontent2 p{
+    color:black;
+    font-size: 20px;
+}
+
+.boxcontent3 {
+    width:700px;
+    height: 300px;
+    position: absolute;
+    margin-top: 23rem;
+}
+
+.boxcontent3 h1 {
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    background: rgb(0, 136, 84);
+    width: 300px;
+
+}
+
+.boxcontent3 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color:black;
+    font-size: 18px;
+}
+
+.boxcontent3 h2 {
+    background: rgb(0, 136, 84);
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    width: 300px;
+    text-align: center;
+}
+
+.end {
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110rem;
+}
+
+.end2 {
+    width: 100%;
+    height: 230px;
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    justify-content: center;
+}
+
+.footerbg h5 {
+    text-shadow: 5px 5px 5px black;
+}
+
+.end1 {
+    position: relative;
+}
+
+.end2 h1 {
+    width: 230px;
+    height: 30px;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 227, 243);
+    background: rgb(0, 0, 0);
+}
+.end3 {
+    box-sizing: border-box;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 0;
+    width: 250px;
+}
+
+.end3 ul {
+    height: 150px;
+    width: 250px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.end3 ul li {
+    color: rgb(223, 223, 223);
+    margin-top: 1rem;
+    font-size: 16px;
+    list-style: none;
+    text-align: center;
+}
+
+.end4 {
+    box-sizing: border-box;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    margin-left: 20.6rem;
+    width: 250px;
+    height: 150px;
+}
+
+.end4 ul {
+    height: 150px;
+    width: 250px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.end4 ul li {
+    color: rgb(223, 223, 223);
+    margin-top: 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+.end4 ul li h5 {
+    font-size: 16px;
+}
+
+.end5 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-bottom: 3rem;
+    bottom:0;
+    margin-left: 41rem;
+    list-style: none;
+    width: 250px;
+}
+
+.end5 ul {
+    width: 250px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+.end5 ul li {
+    color: rgb(223, 223, 223);
+    list-style: none;
+    text-align: center;
+}
+
+.end51 {
+    width: 230px;
+    height: 30px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 227, 243);
+    position:absolute;
+    right: 0;
+}
+
+.end51 h1 {
+    color:white;
+    font-size:19px;
+    text-align: center;
+}
+
+.end5 ul {
+    position: absolute;
+    margin-right: 1rem;
+}
+   
+.end6 {
+    position: absolute;
+    margin-left: 61rem;
+}
+
+/* Card 3 */
